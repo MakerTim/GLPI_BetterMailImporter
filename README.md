@@ -6,11 +6,13 @@ Better Mail Importer for [GLPI](www.glpi-project.org)
 This is a plugin to create more rules for mail importing
 
 ## Table of Contents
+
 * Adds the ability to more then 1 Action to a mail import rule
 * Automatically add a group as requester based on rule[s]
 * Automatically add a group to assignees based on rule[s]
 
 ##How to install
+
 1) Download project (as ZIP) from GIT
 2) Unzip folder to plugin directory ``GLPI-FOLDER/plugins/``
 3) **REQUIRED** Rename folder to ``bettermailimporter`` (= Better Mail Importer)
@@ -18,6 +20,7 @@ This is a plugin to create more rules for mail importing
 5) Then Activate/Enable the plugin by pressing on the red switch
 
 ##How to use the plugin
+
 **Mail rules are only available when you have a Mailreceiver**
 > *To enable mail receivers, go to ``Setup > Receivers`` and add a mail receiver / mailgate into GLPI*
 
@@ -32,7 +35,9 @@ From now on, every mail you receive will get get assigned or be followed by the 
 > ONLY not the options that where added by this plugin [group...]
 
 ##Support
+
 The plugin is only tested for GLPI 4.2+, should work on older versions; not confirmed nor denied yet
 
 ##Contributing and Feature requests
+
 Feel free to open a ticket or pull request! 💙OpenSource💙 
