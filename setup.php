@@ -1,6 +1,6 @@
 <?php
 
-define("PLUGIN_BETTERMAILIMPORTER_VERSION", "1.0.0");
+define("PLUGIN_BETTERMAILIMPORTER_VERSION", "1.0.1");
 
 function plugin_init_bettermailimporter() {
 	global $PLUGIN_HOOKS, $CFG_GLPI, $LINK_ID_TABLE, $LANG;
